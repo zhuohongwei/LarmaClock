@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ADFBBED1C2A466A009394AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */; };
+		9ADFBBEF1C2A466A009394AA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */; };
+		9ADFBBF11C2A466B009394AA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF01C2A466B009394AA /* DetailViewController.swift */; };
+		9ADFBBF41C2A466B009394AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF21C2A466B009394AA /* Main.storyboard */; };
+		9ADFBBF61C2A466B009394AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF51C2A466B009394AA /* Assets.xcassets */; };
+		9ADFBBF91C2A466B009394AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */; };
+		9ADFBC041C2A466B009394AA /* LarmaClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBC031C2A466B009394AA /* LarmaClockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ADFBC001C2A466B009394AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ADFBBE11C2A466A009394AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ADFBBE81C2A466A009394AA;
+			remoteInfo = LarmaClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9ADFBBE91C2A466A009394AA /* LarmaClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarmaClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9ADFBBF01C2A466B009394AA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9ADFBBF31C2A466B009394AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ADFBBF51C2A466B009394AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ADFBBF81C2A466B009394AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ADFBBFA1C2A466B009394AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADFBBFF1C2A466B009394AA /* LarmaClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LarmaClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADFBC031C2A466B009394AA /* LarmaClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarmaClockTests.swift; sourceTree = "<group>"; };
+		9ADFBC051C2A466B009394AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ADFBBE61C2A466A009394AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADFBBFC1C2A466B009394AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ADFBBE01C2A466A009394AA = {
+			isa = PBXGroup;
+			children = (
+				9ADFBBEB1C2A466A009394AA /* LarmaClock */,
+				9ADFBC021C2A466B009394AA /* LarmaClockTests */,
+				9ADFBBEA1C2A466A009394AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ADFBBEA1C2A466A009394AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFBBE91C2A466A009394AA /* LarmaClock.app */,
+				9ADFBBFF1C2A466B009394AA /* LarmaClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ADFBBEB1C2A466A009394AA /* LarmaClock */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */,
+				9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */,
+				9ADFBBF01C2A466B009394AA /* DetailViewController.swift */,
+				9ADFBBF21C2A466B009394AA /* Main.storyboard */,
+				9ADFBBF51C2A466B009394AA /* Assets.xcassets */,
+				9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */,
+				9ADFBBFA1C2A466B009394AA /* Info.plist */,
+			);
+			path = LarmaClock;
+			sourceTree = "<group>";
+		};
+		9ADFBC021C2A466B009394AA /* LarmaClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFBC031C2A466B009394AA /* LarmaClockTests.swift */,
+				9ADFBC051C2A466B009394AA /* Info.plist */,
+			);
+			path = LarmaClockTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ADFBBE81C2A466A009394AA /* LarmaClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADFBC081C2A466B009394AA /* Build configuration list for PBXNativeTarget "LarmaClock" */;
+			buildPhases = (
+				9ADFBBE51C2A466A009394AA /* Sources */,
+				9ADFBBE61C2A466A009394AA /* Frameworks */,
+				9ADFBBE71C2A466A009394AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LarmaClock;
+			productName = LarmaClock;
+			productReference = 9ADFBBE91C2A466A009394AA /* LarmaClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ADFBBFE1C2A466B009394AA /* LarmaClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADFBC0B1C2A466B009394AA /* Build configuration list for PBXNativeTarget "LarmaClockTests" */;
+			buildPhases = (
+				9ADFBBFB1C2A466B009394AA /* Sources */,
+				9ADFBBFC1C2A466B009394AA /* Frameworks */,
+				9ADFBBFD1C2A466B009394AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ADFBC011C2A466B009394AA /* PBXTargetDependency */,
+			);
+			name = LarmaClockTests;
+			productName = LarmaClockTests;
+			productReference = 9ADFBBFF1C2A466B009394AA /* LarmaClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ADFBBE11C2A466A009394AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zhuohongwei;
+				TargetAttributes = {
+					9ADFBBE81C2A466A009394AA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9ADFBBFE1C2A466B009394AA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9ADFBBE81C2A466A009394AA;
+					};
+				};
+			};
+			buildConfigurationList = 9ADFBBE41C2A466A009394AA /* Build configuration list for PBXProject "LarmaClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ADFBBE01C2A466A009394AA;
+			productRefGroup = 9ADFBBEA1C2A466A009394AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ADFBBE81C2A466A009394AA /* LarmaClock */,
+				9ADFBBFE1C2A466B009394AA /* LarmaClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ADFBBE71C2A466A009394AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADFBBF91C2A466B009394AA /* LaunchScreen.storyboard in Resources */,
+				9ADFBBF61C2A466B009394AA /* Assets.xcassets in Resources */,
+				9ADFBBF41C2A466B009394AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADFBBFD1C2A466B009394AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ADFBBE51C2A466A009394AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADFBBF11C2A466B009394AA /* DetailViewController.swift in Sources */,
+				9ADFBBEF1C2A466A009394AA /* MasterViewController.swift in Sources */,
+				9ADFBBED1C2A466A009394AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADFBBFB1C2A466B009394AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADFBC041C2A466B009394AA /* LarmaClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ADFBC011C2A466B009394AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ADFBBE81C2A466A009394AA /* LarmaClock */;
+			targetProxy = 9ADFBC001C2A466B009394AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ADFBBF21C2A466B009394AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADFBBF31C2A466B009394AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ADFBBF81C2A466B009394AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ADFBC061C2A466B009394AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ADFBC071C2A466B009394AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ADFBC091C2A466B009394AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LarmaClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9ADFBC0A1C2A466B009394AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LarmaClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9ADFBC0C1C2A466B009394AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LarmaClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LarmaClock.app/LarmaClock";
+			};
+			name = Debug;
+		};
+		9ADFBC0D1C2A466B009394AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LarmaClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LarmaClock.app/LarmaClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ADFBBE41C2A466A009394AA /* Build configuration list for PBXProject "LarmaClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADFBC061C2A466B009394AA /* Debug */,
+				9ADFBC071C2A466B009394AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADFBC081C2A466B009394AA /* Build configuration list for PBXNativeTarget "LarmaClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADFBC091C2A466B009394AA /* Debug */,
+				9ADFBC0A1C2A466B009394AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9ADFBC0B1C2A466B009394AA /* Build configuration list for PBXNativeTarget "LarmaClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ADFBC0C1C2A466B009394AA /* Debug */,
+				9ADFBC0D1C2A466B009394AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ADFBBE11C2A466A009394AA /* Project object */;
+}
