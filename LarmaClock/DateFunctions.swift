@@ -100,5 +100,5 @@ let saturdayAfter: TransformDate = { date in
 
 let today = { return stripTime(NSDate()) }
 let tomorrow = { return addDays(1)(today()) }
-let comingModay = { return mondayAfter(today()) }
+let comingMonday = { return mondayAfter(today()) }
 let comingSaturday = { return saturdayAfter(today()) }
