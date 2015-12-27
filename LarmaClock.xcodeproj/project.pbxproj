@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		9ADFBBED1C2A466A009394AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */; };
-		9ADFBBEF1C2A466A009394AA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */; };
-		9ADFBBF11C2A466B009394AA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF01C2A466B009394AA /* DetailViewController.swift */; };
-		9ADFBBF41C2A466B009394AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF21C2A466B009394AA /* Main.storyboard */; };
 		9ADFBBF61C2A466B009394AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF51C2A466B009394AA /* Assets.xcassets */; };
-		9ADFBBF91C2A466B009394AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */; };
 		9ADFBC041C2A466B009394AA /* LarmaClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBC031C2A466B009394AA /* LarmaClockTests.swift */; };
+		9ADFBC101C2A4B16009394AA /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBC0F1C2A4B16009394AA /* AlarmsViewController.swift */; };
+		9ADFBC131C2A5539009394AA /* DateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBC121C2A5539009394AA /* DateFunctions.swift */; };
+		9ADFBC151C2D537A009394AA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFBC141C2D537A009394AA /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +28,14 @@
 /* Begin PBXFileReference section */
 		9ADFBBE91C2A466A009394AA /* LarmaClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LarmaClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9ADFBBF01C2A466B009394AA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		9ADFBBF31C2A466B009394AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ADFBBF51C2A466B009394AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9ADFBBF81C2A466B009394AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ADFBBFA1C2A466B009394AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ADFBBFF1C2A466B009394AA /* LarmaClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LarmaClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ADFBC031C2A466B009394AA /* LarmaClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarmaClockTests.swift; sourceTree = "<group>"; };
 		9ADFBC051C2A466B009394AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ADFBC0F1C2A4B16009394AA /* AlarmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
+		9ADFBC121C2A5539009394AA /* DateFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFunctions.swift; sourceTree = "<group>"; };
+		9ADFBC141C2D537A009394AA /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				9ADFBBEC1C2A466A009394AA /* AppDelegate.swift */,
-				9ADFBBEE1C2A466A009394AA /* MasterViewController.swift */,
-				9ADFBBF01C2A466B009394AA /* DetailViewController.swift */,
-				9ADFBBF21C2A466B009394AA /* Main.storyboard */,
 				9ADFBBF51C2A466B009394AA /* Assets.xcassets */,
-				9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */,
 				9ADFBBFA1C2A466B009394AA /* Info.plist */,
+				9ADFBC0F1C2A4B16009394AA /* AlarmsViewController.swift */,
+				9ADFBC121C2A5539009394AA /* DateFunctions.swift */,
+				9ADFBC141C2D537A009394AA /* Store.swift */,
 			);
 			path = LarmaClock;
 			sourceTree = "<group>";
@@ -180,9 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ADFBBF91C2A466B009394AA /* LaunchScreen.storyboard in Resources */,
 				9ADFBBF61C2A466B009394AA /* Assets.xcassets in Resources */,
-				9ADFBBF41C2A466B009394AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +195,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ADFBBF11C2A466B009394AA /* DetailViewController.swift in Sources */,
-				9ADFBBEF1C2A466A009394AA /* MasterViewController.swift in Sources */,
+				9ADFBC131C2A5539009394AA /* DateFunctions.swift in Sources */,
+				9ADFBC151C2D537A009394AA /* Store.swift in Sources */,
+				9ADFBC101C2A4B16009394AA /* AlarmsViewController.swift in Sources */,
 				9ADFBBED1C2A466A009394AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,25 +219,6 @@
 			targetProxy = 9ADFBC001C2A466B009394AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9ADFBBF21C2A466B009394AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ADFBBF31C2A466B009394AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9ADFBBF71C2A466B009394AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ADFBBF81C2A466B009394AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9ADFBC061C2A466B009394AA /* Debug */ = {
@@ -331,6 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LarmaClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClock;
@@ -342,6 +321,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LarmaClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhuohongwei.LarmaClock;
@@ -392,6 +373,7 @@
 				9ADFBC0A1C2A466B009394AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ADFBC0B1C2A466B009394AA /* Build configuration list for PBXNativeTarget "LarmaClockTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +382,7 @@
 				9ADFBC0D1C2A466B009394AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
